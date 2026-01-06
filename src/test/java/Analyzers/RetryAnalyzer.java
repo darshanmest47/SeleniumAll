@@ -21,7 +21,7 @@ public class RetryAnalyzer implements IRetryAnalyzer {
 		 Object currentClass = result.getInstance();
 		 WebDriver driver = ((AllActions) currentClass).getDriver();
 		 File folder = new File("./FailedScreenShots");
-		 if(folder.exists()) {
+		 if(folder.exists() && count==0) {
 			 try {
 				FileUtils.deleteDirectory(folder);
 			 } catch (IOException e) {
