@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="0" total="17" passed="13" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-06T14:04:34 IST" name="Suite" finished-at="2026-01-06T14:07:24 IST" duration-ms="170215">
+    <groups>
+      <group name="window switching">
+        <method signature="AllActions.eightTest()[pri:7, instance:Selenium.AllActions@7b8233cd]" name="eightTest" class="Selenium.AllActions"/>
+        <method signature="AllActions.ninthMethod()[pri:8, instance:Selenium.AllActions@7b8233cd]" name="ninthMethod" class="Selenium.AllActions"/>
+      </group> <!-- window switching -->
+    </groups>
+    <test started-at="2026-01-06T14:04:34 IST" name="Test" finished-at="2026-01-06T14:07:24 IST" duration-ms="170215">
+      <class name="Test.NG.AppTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:Test.NG.AppTest@2a8d39c4]" started-at="2026-01-06T14:04:34 IST" name="beforeSuite" finished-at="2026-01-06T14:04:34 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Test.NG.AppTest@2a8d39c4]" started-at="2026-01-06T14:05:06 IST" name="beforeClass" finished-at="2026-01-06T14:05:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Test.NG.AppTest@2a8d39c4]" started-at="2026-01-06T14:05:06 IST" name="beforeMethod" finished-at="2026-01-06T14:05:06 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:Test.NG.AppTest@2a8d39c4]" started-at="2026-01-06T14:05:06 IST" name="shouldAnswerWithTrue" finished-at="2026-01-06T14:05:06 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Test.NG.AppTest@2a8d39c4]" started-at="2026-01-06T14:05:06 IST" name="afterMethod" finished-at="2026-01-06T14:05:06 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Test.NG.AppTest@2a8d39c4]" started-at="2026-01-06T14:05:06 IST" name="afterClass" finished-at="2026-01-06T14:05:06 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Test.NG.AppTest@2a8d39c4]" started-at="2026-01-06T14:07:24 IST" name="afterSuite" finished-at="2026-01-06T14:07:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Test.NG.AppTest -->
+      <class name="Selenium.AllActions">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:04:34 IST" name="beforeClass" finished-at="2026-01-06T14:04:51 IST" duration-ms="16550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:04:51 IST" name="beforeMethod" finished-at="2026-01-06T14:04:51 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="firstTest()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:04:51 IST" name="firstTest" description="Handling Multi Select dropdown" finished-at="2026-01-06T14:04:51 IST" duration-ms="723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:15 IST" name="beforeMethod" finished-at="2026-01-06T14:05:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="secondTest()[pri:1, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:15 IST" name="secondTest" description="Handling single select dropdown" finished-at="2026-01-06T14:05:15 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:15 IST" name="beforeMethod" finished-at="2026-01-06T14:05:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="thirdTest()[pri:2, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:15 IST" name="thirdTest" description="Clicking on disable button using JS Executor" finished-at="2026-01-06T14:05:15 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:15 IST" name="beforeMethod" finished-at="2026-01-06T14:05:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="fourthTest()[pri:3, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:15 IST" name="fourthTest" description="Entering value in text box with JS Executor" finished-at="2026-01-06T14:05:20 IST" duration-ms="4200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:20 IST" name="beforeMethod" finished-at="2026-01-06T14:05:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="fifthTest()[pri:4, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:20 IST" name="fifthTest" description="Switching to JavaScript alert and accepting the same" finished-at="2026-01-06T14:05:23 IST" duration-ms="3289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fifthTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:23 IST" name="beforeMethod" finished-at="2026-01-06T14:05:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="sixthTest()[pri:5, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:23 IST" name="sixthTest" description="Switching to JavaScript alert and dismissing the same" finished-at="2026-01-06T14:05:26 IST" duration-ms="3173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sixthTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:26 IST" name="beforeMethod" finished-at="2026-01-06T14:05:26 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="seventhTest()[pri:6, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:26 IST" name="seventhTest" description="Entering value into prompt and accepting the alert" finished-at="2026-01-06T14:05:29 IST" duration-ms="3177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seventhTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:29 IST" name="beforeMethod" finished-at="2026-01-06T14:05:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="eightTest()[pri:7, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:29 IST" name="eightTest" description="Switching into popup" finished-at="2026-01-06T14:05:31 IST" duration-ms="1736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eightTest -->
+        <test-method signature="ninthMethod()[pri:8, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:31 IST" name="ninthMethod" description="Handling file upload" finished-at="2026-01-06T14:05:36 IST" depends-on-methods="Selenium.AllActions.eightTest" duration-ms="5179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ninthMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:31 IST" name="beforeMethod" finished-at="2026-01-06T14:05:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:36 IST" name="beforeMethod" finished-at="2026-01-06T14:05:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="tenthMethod()[pri:9, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:05:36 IST" name="tenthMethod" description="Explicit wait and navigating backwards and page refresh" depends-on-groups="window switching" finished-at="2026-01-06T14:06:09 IST" duration-ms="33181" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at Selenium.AllActions.tenthMethod(AllActions.java:194)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tenthMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:06:10 IST" name="beforeMethod" finished-at="2026-01-06T14:06:10 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="tenthMethod()[pri:9, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:06:10 IST" name="tenthMethod" description="Explicit wait and navigating backwards and page refresh" depends-on-groups="window switching" finished-at="2026-01-06T14:06:32 IST" duration-ms="22091" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at Selenium.AllActions.tenthMethod(AllActions.java:194)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tenthMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:06:32 IST" name="beforeMethod" finished-at="2026-01-06T14:06:32 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method retried="true" signature="tenthMethod()[pri:9, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:06:32 IST" name="tenthMethod" description="Explicit wait and navigating backwards and page refresh" depends-on-groups="window switching" finished-at="2026-01-06T14:06:57 IST" duration-ms="24744" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at Selenium.AllActions.tenthMethod(AllActions.java:194)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tenthMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:06:57 IST" name="beforeMethod" finished-at="2026-01-06T14:06:57 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="tenthMethod()[pri:9, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:06:57 IST" name="tenthMethod" description="Explicit wait and navigating backwards and page refresh" depends-on-groups="window switching" finished-at="2026-01-06T14:07:21 IST" duration-ms="23745" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at Selenium.AllActions.tenthMethod(AllActions.java:194)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tenthMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:07:21 IST" name="beforeMethod" finished-at="2026-01-06T14:07:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="eleventhMethod()[pri:10, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:07:21 IST" name="eleventhMethod" description="Taking screenshot in selenium " finished-at="2026-01-06T14:07:21 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eleventhMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Selenium.AllActions@7b8233cd]" started-at="2026-01-06T14:07:21 IST" name="afterClass" finished-at="2026-01-06T14:07:24 IST" duration-ms="3496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Selenium.AllActions -->
+      <class name="Selenium.AuthPopUp">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Selenium.AuthPopUp@5c00384f]" started-at="2026-01-06T14:05:06 IST" name="beforeClass" finished-at="2026-01-06T14:05:15 IST" duration-ms="8123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium.AuthPopUp@5c00384f]" started-at="2026-01-06T14:05:15 IST" name="beforeMethod" finished-at="2026-01-06T14:05:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testMethod()[pri:0, instance:Selenium.AuthPopUp@5c00384f]" started-at="2026-01-06T14:05:15 IST" name="testMethod" finished-at="2026-01-06T14:05:15 IST" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Selenium.AuthPopUp@5c00384f]" started-at="2026-01-06T14:05:15 IST" name="afterClass" finished-at="2026-01-06T14:05:15 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Selenium.AuthPopUp -->
+      <class name="Selenium.FileUpload">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Selenium.FileUpload@25b2cfcb]" started-at="2026-01-06T14:04:51 IST" name="beforeClass" finished-at="2026-01-06T14:04:59 IST" duration-ms="7618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Selenium.FileUpload@25b2cfcb]" started-at="2026-01-06T14:04:59 IST" name="beforeMethod" finished-at="2026-01-06T14:04:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="firstTest()[pri:0, instance:Selenium.FileUpload@25b2cfcb]" started-at="2026-01-06T14:04:59 IST" name="firstTest" finished-at="2026-01-06T14:05:06 IST" duration-ms="6638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Selenium.FileUpload@25b2cfcb]" started-at="2026-01-06T14:05:06 IST" name="afterClass" finished-at="2026-01-06T14:05:06 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Selenium.FileUpload -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
