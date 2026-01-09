@@ -191,7 +191,7 @@ public class AllActions {
 		Assert.assertTrue(flipkartImage.isDisplayed());
 		driver.navigate().back();
 		driver.navigate().refresh();
-		Assert.assertFalse(driver.getTitle().contains("omayo"));
+		Assert.assertTrue(driver.getTitle().contains("omayo"));
 		
 		
 	}
