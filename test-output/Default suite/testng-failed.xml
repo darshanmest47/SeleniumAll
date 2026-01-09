@@ -6,9 +6,10 @@
       <class name="Selenium.AllActions">
         <methods>
           <include name="beforeClass"/>
+          <include name="secondTest"/>
           <include name="beforeMethod"/>
           <include name="afterClass"/>
-          <include name="eightTest"/>
+          <include name="afterMethod"/>
         </methods>
       </class> <!-- Selenium.AllActions -->
     </classes>
