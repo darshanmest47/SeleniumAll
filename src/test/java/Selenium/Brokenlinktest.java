@@ -20,7 +20,7 @@ public class Brokenlinktest {
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--incognito");
-		options.addArguments("--headless");
+		options.addArguments("--headless=new");
 		WebDriver driver = new ChromeDriver(options);
 //		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
