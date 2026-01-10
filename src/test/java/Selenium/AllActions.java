@@ -183,7 +183,7 @@ public class AllActions {
 		Thread.sleep(5000);
 	}
 	
-	@Test(description="Explicit wait and navigating backwards and page refresh",priority = 9,dependsOnGroups ="window switching" )
+	@Test(description="Explicit wait and navigating backwards and refreshing page",priority = 9,dependsOnGroups ="window switching" )
 	public void tenthMethod() {
 		WebElement dropdown = driver.findElement(By.xpath("//button[contains(text(),'Dropdown')]"));
 		dropdown.click();
