@@ -201,6 +201,7 @@ public class AllActions {
 		
 	}
 	
+
 	@Test(description="Taking screenshot in selenium and saving to folder",priority = 10)
 	public void eleventhMethod() throws IOException {
 		TakesScreenshot ts = (TakesScreenshot)driver;
