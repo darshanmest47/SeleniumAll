@@ -18,30 +18,6 @@ public class RetryAnalyzer implements IRetryAnalyzer {
      
      @Override
      public boolean retry(ITestResult result) {
-		 Object currentClass = result.getInstance();
-		 WebDriver driver = ((AllActions) currentClass).getDriver();
-		 File folder = new File("./FailedScreenShots");
-		 if(folder.exists()) {
-			 try {
-				FileUtils.deleteDirectory(folder);
-			 } catch (IOException e) {
-				e.printStackTrace();
-			 }
-		 } else {
-			 if(driver!=null) {
-				 try {
-				 TakesScreenshot ts = ((TakesScreenshot)driver);
-				 File source = ts.getScreenshotAs(OutputType.FILE);
-				 File destination = new File("./FailedScreenShots/ "+result.getName()+" _ "+System.currentTimeMillis()+".png");
-				 FileUtils.copyFile(source,destination);
-					 
-				 }catch (Exception e) {
-					 e.printStackTrace();
-				}
-			 }
-		 }
-
-		 
 		 
     	 if(count < MAX_RETRY_COUNT) {
     		 count++;

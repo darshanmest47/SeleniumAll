@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -20,7 +21,9 @@ public class FileUpload {
 	public void beforeClass() {
 		 String url = "https://the-internet.herokuapp.com/upload";
 		 WebDriverManager.chromedriver().setup();
-		 driver = new ChromeDriver();
+		 ChromeOptions options = new ChromeOptions();
+		 options.addArguments("--headless=new");
+		 driver = new ChromeDriver(options);
 		 driver.manage().window().maximize();
 		 driver.get(url);
 		 System.out.println("Before class");
