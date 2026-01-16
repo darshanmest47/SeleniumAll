@@ -21,7 +21,7 @@ public class AuthPopUp {
 		 String url = "https://admin:admin@the-internet.herokuapp.com/basic_auth";
 		 WebDriverManager.chromedriver().setup();
 		 ChromeOptions options = new ChromeOptions();
-		 options.addArguments("--headless=new");
+//		 options.addArguments("--headless=new");
 		 driver = new ChromeDriver(options);
 		 driver.manage().window().maximize();
 		 driver.get(url);

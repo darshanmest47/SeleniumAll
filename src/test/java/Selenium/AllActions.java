@@ -39,7 +39,7 @@ public class AllActions {
 		 String url = "https://omayo.blogspot.com/";
 		 WebDriverManager.chromedriver().setup();
 		 ChromeOptions options = new ChromeOptions();
-		 options.addArguments("--headless=new");
+//		 options.addArguments("--headless=new");
 		 driver = new ChromeDriver(options);
 		 driver.manage().window().maximize();
 		 driver.get(url);
@@ -56,7 +56,7 @@ public class AllActions {
 		return this.driver;
 	}
 	
-	@Test(description = "Handling Multi Select dropdown" , priority=0 )
+	@Test(description = "Handling Multi Select dropdown" , priority=0)
 	public void firstTest() throws InterruptedException {
 		WebElement multiSelect = driver.findElement(By.id("multiselect1"));
 		Select select = new Select(multiSelect);

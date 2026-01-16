@@ -22,7 +22,7 @@ public class FileUpload {
 		 String url = "https://the-internet.herokuapp.com/upload";
 		 WebDriverManager.chromedriver().setup();
 		 ChromeOptions options = new ChromeOptions();
-		 options.addArguments("--headless=new");
+//		 options.addArguments("--headless=new");
 		 driver = new ChromeDriver(options);
 		 driver.manage().window().maximize();
 		 driver.get(url);
