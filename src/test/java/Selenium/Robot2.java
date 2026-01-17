@@ -13,7 +13,7 @@ public class Robot2 {
 	Robot robot = new Robot();
 	robot.delay(2000);
 	
-	String text = "idea64";
+	String text = "notepad";
 	
 	StringSelection selction = new StringSelection(text);
 	Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selction, null);
@@ -36,9 +36,9 @@ public class Robot2 {
 	robot.keyPress(KeyEvent.VK_ENTER);
 	robot.keyRelease(KeyEvent.VK_ENTER);
 	
-	robot.delay(10000);
-	robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-	robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+    robot.delay(10000);
+//	robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+//	robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 	
     robot.mousePress(InputEvent.BUTTON3_DOWN_MASK);
 	robot.mouseRelease(InputEvent.BUTTON3_DOWN_MASK);
@@ -50,10 +50,10 @@ public class Robot2 {
 	robot.keyRelease(KeyEvent.VK_F4);
 	robot.keyRelease(KeyEvent.VK_ALT);
 	
-	robot.delay(5000);
-	
-	robot.keyPress(KeyEvent.VK_ENTER);
-	robot.keyRelease(KeyEvent.VK_ENTER);
+//	robot.delay(5000);
+//
+//	robot.keyPress(KeyEvent.VK_ENTER);
+//	robot.keyRelease(KeyEvent.VK_ENTER);
 
 
 
